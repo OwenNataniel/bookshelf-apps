@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #480048;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.head-search {
+    background-color: #300030;
+    width: 100%;
+}
+
+.head-search h1 {
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+
+main {
+    display: flex;
+    margin: 40px;
+    justify-content: space-between;
+}
+
+.input-section {
+    background-color: #601848;
+    padding: 20px;
+    box-sizing: border-box;
+    height: 500px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px 0px #c04848;
+}
+
+.input-section img {
+    border: 4px solid #f07241;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin: auto;
+    display: block;
+}
+
+.input-section h2 {
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+
+.input {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 25px auto;
+}
+
+.input input {
+    background: #601848;
+    width: 80%;
+    height: 80%;
+    border: 1px solid #f07241;
+    border-radius: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+    color: white;
+    outline: none;
+    margin: auto;
+}
+
+.input label {
+    position: absolute;
+    top: 50%;
+    left: 40px;
+    transform: translateY(-50%);
+    transition: all .8s ease;
+    font-size: 16px;
+    pointer-events: none;
+    color: #f07241;
+}
+
+.input input:focus+label,
+.input input:valid+label {
+    font-size: 15px;
+    top: -2px;
+    background: #601848;
+    padding: 0px 5px 0px 5px;
+    box-sizing: border-box;
+}
+
+.input-section #bookSubmit {
+    color: #300030;
+    font-size: 14px;
+    background-color: #f07241;
+    height: 45px;
+    width: 250px;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid #300030;
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px 0px black;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.input-section #bookSubmit:hover {
+    background-color: #601848;
+    color: white;
+    border: 2px solid white;
+}
+
+.book-shelf {
+    background-color: #601848;
+    box-shadow: 2px 5px 10px 0px #c04848;
+    border-radius: 10px;
+    width: 500px;
+    height: auto;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.book-shelf h2 {
+    margin-bottom: 20px;
+    color: #f07241;
+}
+
+.book-item {
+    border: 2px solid black;
+    margin: 10px;
+    padding: 10px;
+    background-color: #c04848;
+    box-shadow: 2px 5px 10px 0px black;
+}
+
+.book-list .book-item h3,
+p {
+    margin: 0px 0px 10px 0px;
+    color: #300030;
+}
+
+.book-item .action {
+    text-align: right;
+}
+
+.action button {
+    margin-left: 10px;
+}
+
+.action .green {
+    background-color: rgb(0, 255, 0);
+    font-size: 15px;
+    padding: 3px;
+    border: 2px solid rgb(0, 255, 0);
+    border-radius: 3px;
+}
+
+.action .green:hover {
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    padding: 3px;
+    border: 2px solid rgb(0, 255, 0);
+    border-radius: 3px;
+}
+
+.action .red {
+    background-color: rgb(199, 0, 0);
+    font-size: 15px;
+    padding: 3px;
+    border: 2px solid rgb(199, 0, 0);
+    border-radius: 3px;
+}
+
+.action .red:hover {
+    background-color: transparent;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    padding: 3px;
+    border: 2px solid rgb(199, 0, 0);
+    border-radius: 3px;
+}
+
+footer {
+    background-color: #601848;
+    width: 100%;
+    height: 200px;
+}
+
+.garis-horizontal {
+    width: 50%;
+    height: 2px;
+    background-color: #f07241;
+    margin: 20px auto;
+}
+
+footer p {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 20px;
+    color: #f07241;
+}
+
+.social {
+    margin-top: 20px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.social a {
+    margin: 20px;
+    font-size: 25px;
+    color: #f07241;
+}
+
+.social a:hover {
+    color: aqua;
+    font-size: 28px;
+}

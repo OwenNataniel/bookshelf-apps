@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshelf Apps</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Rancho&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header class="head-search">
+        <h1>Bookshelf Apps</h1>
+    </header>
+
+    <main>
+        <section class="input-section">
+            <img src="asset/books-mood-photo-hd-wallpaper.jpg" alt="Owen Nataniel">
+            <h2>Book That I Learn</h2>
+            <form id="form">
+                <div class="input">
+                    <input id="inputBookTitle" type="text" name="inputBookTitle" required>
+                    <label for="inputBookTitle">Judul</label>
+                </div>
+                <div class="input">
+                    <input id="inputBookAuthor" type="text" name="inputBookAuthor" required>
+                    <label for="inputBookAuthor">Penulis</label>
+                </div>
+                <div class="input">
+                    <input id="inputBookYear" type="number" name="inputBookYear" required>
+                    <label for="inputBookYear">Tahun</label>
+                </div>
+                <input id="bookSubmit" value="Put the book on the bookshelf" type="submit" name="bookSubmit">
+            </form>
+        </section>
+
+        <section class="book-shelf">
+            <h2>Not finished reading</h2>
+            <div id="incompleteBook" class="book-list">
+
+            </div>
+        </section>
+
+        <section class="book-shelf">
+            <h2>Done reading</h2>
+            <div id="completeBook" class="book-list">
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social">
+            <a href="https://web.facebook.com/people/Owen-Nataniel/100005282467128/"><i
+                    class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+        </div>
+        <div class="garis-horizontal"></div>
+        <p class="end"><i class="fa-regular fa-copyright"></i> CopyRight By Owen Nataniel</p>
+    </footer>
+
+    <script src="js/main.js" type="text/javascript"></script>
+
+</body>
+
+</html>
